@@ -4,23 +4,20 @@ import java.time.LocalDate;
 
 import lombok.Getter;
 import lombok.Setter;
+
 /***********************************************************************
  * @website ：
  * @creator : zhiyingli
- * @create-time : 2019/5/23
+ * @create-time : 2019/5/24
  * @email : lizhiying61f@gmail.com
- * @description :
+ * @description : 人员角色表
  ***********************************************************************/
-@Setter
 @Getter
-public class SysAclModule {
+@Setter
+public class SysRoleUser {
     private Integer id;
-    private String name;
-    private Integer parentId;
-    private String level;
-    private Integer status;
-    private Integer seq;
-    private String remark;
+    private Integer roleId;
+    private Integer userId;
     private String operator;
     private LocalDate operateTime;
     private String operateIp;

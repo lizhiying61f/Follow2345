@@ -4,6 +4,7 @@ import java.time.LocalDate;
 
 import lombok.Getter;
 import lombok.Setter;
+
 /***********************************************************************
  * @website ：
  * @creator : zhiyingli
@@ -11,15 +12,13 @@ import lombok.Setter;
  * @email : lizhiying61f@gmail.com
  * @description :
  ***********************************************************************/
-@Setter
 @Getter
-public class SysAclModule {
+@Setter
+public class SysRole {
     private Integer id;
     private String name;
-    private Integer parentId;
-    private String level;
+    private Integer type;
     private Integer status;
-    private Integer seq;
     private String remark;
     private String operator;
     private LocalDate operateTime;

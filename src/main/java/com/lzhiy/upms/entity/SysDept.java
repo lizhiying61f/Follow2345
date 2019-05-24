@@ -4,7 +4,13 @@ import java.time.LocalDate;
 
 import lombok.Getter;
 import lombok.Setter;
-
+/***********************************************************************
+ * @website ：
+ * @creator : zhiyingli
+ * @create-time : 2019/5/23
+ * @email : lizhiying61f@gmail.com
+ * @description :
+ ***********************************************************************/
 @Getter
 @Setter
 public class SysDept {
